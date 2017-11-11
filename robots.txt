@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Allow: /index.html
+Allow: /garsas.html
+Allow: /apsvietimas.html
+Allow: /paslaugos.html
+Allow: /atlikti-darbai.html
+
+Sitemap: http://gisa.lt/sitemap.xml
