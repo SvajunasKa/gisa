@@ -7,11 +7,11 @@
         <meta name="title" content="GISA.LT: Renginių įgarsinimas ir apšvietimas, įrangos nuoma"/>
         <meta name="description" content="Įgarsiname ir apšviečiame renginius,
               nuomojame įgarsinimo ir apšvietimo įrangą."/>
-        <meta name="keywords" content="garso aparatura, apsvietimo aparatura, renginiu apsvietimas, renginiu igarsinimas, 
+        <meta name="keywords" content="garso aparatura, garso iranga, apsvietimo iranga, apsvietimo aparatura, renginiu apsvietimas, renginiu igarsinimas,
               garsas, sviesa, aparaturos nuoma, irangos komplektai, gisa, gisa.lt, Garso ir apšvietimo aparatūra"/>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main.min.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     </head>
@@ -25,7 +25,7 @@
                         <li><a title="apsvietimo aparatura" href="apsvietimas.html">Apšvietimo aparatūra</a></li>
                         <li><a title="garso aparatura"href="garsas.html">Garso aparatūra</a></li>
                         <li><a title="sventes" href="atlikti-darbai.html">Atlikti darbai</a></li>
-                        <li> <a title="partneriai" href="#">Musų draugai</a></li>
+                        <li><a title="partneriai" href="partneriai.html">Musų draugai</a></li>
                         <li><a title="gisa.lt" href="index.php#three" id="cont">Kontaktai</a></li>
                     </ul>
                 </nav>

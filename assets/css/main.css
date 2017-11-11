@@ -2005,7 +2005,7 @@ body.is-menu-visible #menu {
     display: block;
     font-size: 0.8em;
     letter-spacing: 0.225em;
-    padding: 0 1.5em;
+    padding: 0 0.5em;
     text-transform: uppercase;
 }
 #header nav > ul > li > a:hover{
@@ -2841,9 +2841,14 @@ nav#nav-mobile a:hover {
     color: #fff;
 }
 
+
+#partneriai{
+    width: 100%;
+}
+
 /* =Media Queries
 -------------------------------------------------------------- */
-@media all and (max-width: 900px) {
+@media all and (max-width: 1120px) {
     #nav-trigger {
         display: inline-block !important; 
         float: right;
@@ -2852,6 +2857,7 @@ nav#nav-mobile a:hover {
     nav#nav-main {
         display: none; 
     }
+
 
     nav#nav-mobile {
         display: inline-block; 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GISA.LT: Mūsų partneriai</title>
+    <meta name="title" content="GISA.LT: Renginių įgarsinimas ir apšvietimas, įrangos nuoma"/>
+    <meta name="description" content="Įgarsiname ir apšviečiame renginius,
+              nuomojame įgarsinimo ir apšvietimo įrangą."/>
+    <meta name="keywords" content="garso aparatura, apsvietimo aparatura, renginiu apsvietimas, renginiu igarsinimas,
+              garsas, sviesa, aparaturos nuoma, irangos komplektai, gisa, gisa.lt, Garso ir apšvietimo aparatūra"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+<body>
+<div id="page-wrapper" style="background-color: #1d242a;">
+    <header id="header" class="alt top">
+        <a title="pagrindinis" href="index.php"><img alt="logo" src="images/logo.png"></a>
+        <nav  id="nav-main">
+            <ul>
+                <li><a title="paslaugos" href="paslaugos.html">Sprendimai</a></li>
+                <li><a title="apsvietimo aparatura" href="apsvietimas.html">Apšvietimo aparatūra</a></li>
+                <li><a title="garso aparatura" href="garsas.html">Garso aparatūra</a></li>
+                <li><a title="sventes" href="atlikti-darbai.html">Atlikti darbai</a></li>
+                <li><a title="partneriai" href="partneriai.html">Musų draugai</a></li>
+                <li><a title="gisa.lt" href="index.php#three" id="cont">Kontaktai</a></li>
+            </ul>
+        </nav>
+        <div id="nav-trigger">
+            <span>Meniu</span>
+        </div>
+        <nav id="nav-mobile"></nav>
+    </header>
+    <section class="wrapper alt style2">
+        <section class="spotlight" id="introduction">
+            <h1>Mūsų draugai</h1>
+        </section>
+        <section class="spotlight">
+            <div class="content">
+                <h2>Grupė "Nemuno krantai"</h2>
+                <div class="image" id="partneriai"  style="width: ">
+                    <a title="Nemuno krantai" href="http://nemunokrantai.lt/">
+                        <img alt="Ziezmariu miesto svente" src="http://nemunokrantai.lt/index_files/pag.jpg" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#nav-mobile").html($("#nav-main").html());
+            $("#nav-trigger span").click(function () {
+                if ($("nav#nav-mobile ul").hasClass("expanded")) {
+                    $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+                    $(this).removeClass("open");
+                } else {
+                    $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+                    $(this).addClass("open");
+                }
+            });
+        });
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-101628721-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</div>
+</body>
+</html>
