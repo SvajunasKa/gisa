@@ -18,7 +18,7 @@
     <body class="landing">
         <div id="page-wrapper">
             <header id="header" class="alt">
-                <a alt="gisa.lt" href="index.php" title="gisa.lt"><img alt="logo" src="images/logo.png"></a>
+                <a href="index.php" title="gisa.lt"><img alt="logo" src="images/logo.png"></a>
                 <nav  id="nav-main">
                     <ul> 
                         <li><a title="paslaugos" href="paslaugos.html">Sprendimai</a></li>
@@ -86,8 +86,9 @@
                 <div class="inner">
                     <header class="major">
                         <h3>Su mumis galite susisiekti: <br>
-                            garsas@gisa.lt<br> 
-                            sviesa@gisa.lt<br></h3>
+                            garsas@gisa.lt tel.: 8-676 97728<br>
+                            sviesa@gisa.lt 8-676 97729<br>
+                        </h3>
                     </header>
                     <h4>Arba užpildykite šią formą ir mes su Jumis susisieksime</h4><br><br>
                     <div id="form-messages"></div>
