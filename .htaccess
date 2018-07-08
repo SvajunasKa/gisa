@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gisa.work$
+RewriteCond %{REQUEST_URI} !^
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteCond %{HTTP_HOST} ^rubackyte.work$
+RewriteRule ^(/)?$ index.php [L]
+
+
