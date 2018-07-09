@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://gisa.lt/</loc>
+  <lastmod>2017-06-24T19:30:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gisa.lt/index.php</loc>
+  <lastmod>2018-07-09T19:30:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gisa.lt/paslaugos.html</loc>
+  <lastmod>2018-07-09T19:30:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gisa.lt/apsvietimas.html</loc>
+  <lastmod>2018-07-09T19:30:31+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gisa.lt/garsas.html</loc>
+  <lastmod>2018-07-09T19:30:33+00:00</lastmod>
+</url>
+  <url>
+    <loc>http://gisa.lt/atlikti-darbai.html</loc>
+    <lastmod>2018-07-09T19:30:33+00:00</lastmod>
+  </url>
+</urlset>

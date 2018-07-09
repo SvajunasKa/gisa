@@ -4,7 +4,10 @@ var css = require("gulp-clean-css");
 var rename = require('gulp-rename');
 
 gulp.task("imagemin", function () {
-  gulp.src("images/FullSize/**/*.jpg")
+  gulp.src([
+    "images/FullSize/**/*.jpg",
+    "images/FullSize/**/*.png"
+  ])
     .pipe(imagemin())
     .pipe(gulp.dest("imagemin"))
 });
