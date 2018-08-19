@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-img-base64": "0.0.1"
   },
   "devDependencies": {
     "gulp-base64": "^0.1.3",
