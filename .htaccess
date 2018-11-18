@@ -1,13 +1,16 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^gisa.work$
-RewriteCond %{REQUEST_URI} !^
-
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-
-
-RewriteCond %{HTTP_HOST} ^rubackyte.work$
-RewriteRule ^(/)?$ index.php [L]
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^gisa.work$
+#RewriteCond %{REQUEST_URI} !^
+#
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#
+#
+#
+#RewriteCond %{HTTP_HOST} ^rubackyte.work$
+#RewriteRule ^(/)?$ index.php [L]
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
